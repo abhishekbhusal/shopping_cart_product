@@ -18,6 +18,9 @@ public class Order {
     private String orderCategory;
 
     @Column
+    private Long user_id;
+
+    @Column
     private String orderDate;
 
 }
